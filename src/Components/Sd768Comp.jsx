@@ -1,12 +1,12 @@
 import React from "react";
-import PMlogo from "./Images/PMlogo.png";
+import PatelLogo from "../Images/PatelLogo.png";
 
 function Sd792Comp() {
   return (
     <>
       <div className="NavDiv" style={{ height: "110px" }}>
         <img
-          src={PMlogo}
+          src={PatelLogo}
           alt="Patel Marketing Logo"
           style={{
             width: "90px",

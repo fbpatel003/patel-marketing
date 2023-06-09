@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel';
-import { Paper, Button } from '@material-ui/core';
+import Paper from '@mui/material/Paper';
+import { Button } from '@mui/material';
 
 function Carousell(props) {
     const items = [
@@ -36,3 +37,5 @@ const Item = ({name, description}) => {
         </Paper>
     );
 };
+
+export default Carousell;

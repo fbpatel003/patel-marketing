@@ -1,13 +1,14 @@
 import * as React from "react";
-import PMlogo from "./Images/PMlogo.png";
+import PatelLogo from "../Images/PatelLogo.png";
 import Carousel from "react-material-ui-carousel";
+import Carousell from "./Carousell";
 
 function Ld1400Comp() {
   return (
     <>
       <div className="NavDiv" style={{ height: "130px" }}>
         <img
-          src={PMlogo}
+          src={PatelLogo}
           alt="Patel Marketing Logo"
           style={{
             width: "120px",
@@ -56,7 +57,7 @@ function Ld1400Comp() {
         <p style={{ margin: "0", fontSize: "13px" }}>--------------------</p>
       </div>
 
-      {/* <Carousel/> */}
+      <Carousell/>
     </>
   );
 }
