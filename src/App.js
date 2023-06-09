@@ -34,9 +34,9 @@ function App() {
 
   const MyComponent = () => {
     const { width } = useViewport();
-    if(width>992) return<Ld1400Comp/>
-    else if(width<992 && width>768) return <Md992Comp/>
-    else return <Sd792Comp/>
+    if(width>=992) return<Ld1400Comp/>
+    else if(width<992 && width>=768) return <Md992Comp/>
+    else if(width<768) return <Sd792Comp/>
   };
   return (
     <>
