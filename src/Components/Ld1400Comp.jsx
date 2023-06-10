@@ -2,6 +2,8 @@ import * as React from "react";
 import PatelLogo from "../Images/PatelLogo.png";
 import VisionMissionCarousel from "./VisionMissionCarousel";
 import recycle from "../Images/recycle.svg";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import Products from "./Products";
 
 function Ld1400Comp() {
   const ldSettingsVisionMissionCarousel = {
@@ -9,7 +11,17 @@ function Ld1400Comp() {
     flexDirection: "row",
     partsLength: "32%",
     partsHeight: "300px",
+    headTag: "h2",
+    carouselDivMargin: "0 0 0 0",
   };
+
+  const ldSettingsProducts = {
+    flexDirection:"row",
+    productDivMaxWidth: '1100px',
+    productMaxWidth: '520px',
+    productHeight: '400px',
+    productMinWidth: '350px'
+  }
 
   return (
     <>
@@ -55,6 +67,7 @@ function Ld1400Comp() {
           maxWidth: "1100px",
           margin: "auto",
           justifyContent: "space-around",
+          fontFamily: "OutFit",
         }}
       >
         <p
@@ -79,6 +92,23 @@ function Ld1400Comp() {
       </div>
 
       <VisionMissionCarousel settings={ldSettingsVisionMissionCarousel} />
+
+      <a
+        href="https://wa.me/7096275962?text=Hello%20there%2C%0AI%20want%20to%20know%20more%20about%20this%20product%20VidhyutCard%20and%20OzoneMitra%20Electric%20Bike.."
+        target="_blank"
+      >
+        <div
+          className="whatsappButton"
+          style={{ height: "70px", width: "70px" }}
+        >
+          <WhatsAppIcon
+            sx={{ fontSize: 70, color: "#25D366", margin: "auto" }}
+          />
+        </div>
+      </a>
+      <hr />
+
+      <Products settings = {ldSettingsProducts}/>
     </>
   );
 }

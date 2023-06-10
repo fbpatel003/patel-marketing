@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-material-ui-carousel";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import FlagIcon from "@mui/icons-material/Flag";
-import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
+import ElectricBoltIcon from "@mui/icons-material/ElectricBolt";
 import re1 from "../Images/re1.jpg";
 import re2 from "../Images/re2.jpg";
 import vm1 from "../Images/vm1.jpg";
@@ -18,7 +18,7 @@ function VisionMissionCarousel(props) {
       className="CarouselMain"
       style={{ maxWidth: settings.carouselDivMaxWidth }}
     >
-      <Carousel>
+      <Carousel data-interval="2500">
         <div
           className="CarouselDiv"
           style={{
@@ -34,18 +34,19 @@ function VisionMissionCarousel(props) {
               background: "#a32222",
               textAlign: "justify",
               color: "#f5f5f7",
+              margin:settings.carouselDivMargin,
             }}
           >
-            <h1 style={{ textAlign: "center" }}>
-              {" "}
+            <settings.headTag style={{ textAlign: "center" }}>
               OUR <RemoveRedEyeIcon /> VISION
-            </h1>
+            </settings.headTag>
             <p
               style={{
                 fontSize: "15px",
                 fontFamily: "Century Gothic",
                 padding: "15px",
                 lineHeight: "20px",
+                marginTop:'-20px'
               }}
             >
               To lead the transition towards a sustainable future by offering
@@ -60,6 +61,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
+              margin:settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -77,6 +79,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
+              margin:settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -95,6 +98,7 @@ function VisionMissionCarousel(props) {
           style={{
             maxWidth: settings.carouselDivMaxWidth,
             flexDirection: settings.flexDirection,
+            margin : settings.carouselDivMargin
           }}
         >
           <div
@@ -102,6 +106,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
+              margin:settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -122,17 +127,19 @@ function VisionMissionCarousel(props) {
               background: "#040469",
               textAlign: "justify",
               color: "#f5f5f7",
+              margin:settings.carouselDivMargin,
             }}
           >
-            <h1 style={{ textAlign: "center" }}>
+            <settings.headTag style={{ textAlign: "center" }}>
               OUR <FlagIcon /> MISSION
-            </h1>
+            </settings.headTag>
             <p
               style={{
                 fontSize: "15px",
                 fontFamily: "Century Gothic",
                 padding: "15px",
                 lineHeight: "20px",
+                marginTop:'-20px'
               }}
             >
               To provide innovative electric energy-saving solutions and
@@ -147,6 +154,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
+              margin:settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -165,6 +173,7 @@ function VisionMissionCarousel(props) {
           style={{
             maxWidth: settings.carouselDivMaxWidth,
             flexDirection: settings.flexDirection,
+            margin: settings.carouselDivMargin
           }}
         >
           <div
@@ -172,6 +181,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
+              margin:settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -189,6 +199,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
+              margin:settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -209,17 +220,19 @@ function VisionMissionCarousel(props) {
               background: "#079100",
               textAlign: "justify",
               color: "#f5f5f7",
+              margin:settings.carouselDivMargin,
             }}
           >
-            <h1 style={{ textAlign: "center" }}>
+            <settings.headTag style={{ textAlign: "center" }}>
               OUR <ElectricBoltIcon /> VALUES
-            </h1>
+            </settings.headTag>
             <p
               style={{
                 fontSize: "15px",
                 fontFamily: "Century Gothic",
                 padding: "15px",
                 lineHeight: "20px",
+                marginTop:'-20px'
               }}
             >
               Integrity, Innovation, and Environmental Stewardship. We

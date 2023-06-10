@@ -1,8 +1,18 @@
 import React from "react";
 import PatelLogo from "../Images/PatelLogo.png";
 import recycle from "../Images/recycle.svg";
+import VisionMissionCarousel from "./VisionMissionCarousel";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 function Md992Comp() {
+  const mdSettingsVisionMissionCarousel = {
+    carouselDivMaxWidth: "700px",
+    flexDirection: "row",
+    partsLength: "32%",
+    partsHeight: "330px",
+    headTag: "h3",
+    carouselDivMargin: "0 0 0 0",
+  };
   return (
     <>
       <div className="NavDiv" style={{ height: "110px" }}>
@@ -44,10 +54,11 @@ function Md992Comp() {
         style={{
           display: "flex",
           flexDirection: "row",
-          width:'auto',
+          width: "auto",
           maxWidth: "800px",
           margin: "auto",
           justifyContent: "space-around",
+          fontFamily:'OutFit',
         }}
       >
         <p
@@ -56,7 +67,7 @@ function Md992Comp() {
             textAlign: "justify",
             fontSize: "15px",
             height: "100%",
-            width:'auto',
+            width: "auto",
             maxWidth: "380px",
             padding: "20px",
           }}
@@ -70,7 +81,19 @@ function Md992Comp() {
           consumption.
         </p>
         <img src={recycle} alt="" style={{ width: "380px" }} />
-        </div>
+      </div>
+      <hr />
+
+      <VisionMissionCarousel settings={mdSettingsVisionMissionCarousel} />
+
+      <a
+        href="https://wa.me/7096275962?text=Hello%20there%2C%0AI%20want%20to%20know%20more%20about%20this%20product%20VidhyutCard%20and%20OzoneMitra%20Electric%20Bike.."
+        target="_blank"
+      >
+      <div className="whatsappButton" style={{ height: "60px", width: "60px" }}>
+        <WhatsAppIcon sx={{ fontSize: 60, color: "#25D366", margin: "auto" }} />
+      </div>
+      </a>
     </>
   );
 }
