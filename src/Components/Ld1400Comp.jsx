@@ -1,9 +1,16 @@
 import * as React from "react";
 import PatelLogo from "../Images/PatelLogo.png";
-import Carousel from "react-material-ui-carousel";
-import Carousell from "./Carousell";
+import VisionMissionCarousel from "./VisionMissionCarousel";
+import recycle from "../Images/recycle.svg";
 
 function Ld1400Comp() {
+  const ldSettingsVisionMissionCarousel = {
+    carouselDivMaxWidth: "800px",
+    flexDirection: "row",
+    partsLength: "32%",
+    partsHeight: "300px",
+  };
+
   return (
     <>
       <div className="NavDiv" style={{ height: "130px" }}>
@@ -41,11 +48,25 @@ function Ld1400Comp() {
       </div>
 
       <div
-        className="ShortInfo"
-        style={{ maxWidth: "500px", marginTop: "15px" }}
+        className="infoDiv"
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          maxWidth: "1100px",
+          margin: "auto",
+          justifyContent: "space-around",
+        }}
       >
-        <p style={{ margin: "0", fontSize: "13px" }}>_____________________</p>
-        <p style={{ margin: "0", textAlign: "justify", fontSize: "13.5px" }}>
+        <p
+          style={{
+            margin: "auto",
+            textAlign: "justify",
+            fontSize: "17px",
+            height: "100%",
+            maxWidth: "500px",
+            padding: "20px",
+          }}
+        >
           At Patel Marketing, we are committed to making a positive impact on
           our planet by promoting energy-saving solutions and environmental
           sustainability. As a trusted trading company specializing in electric
@@ -54,10 +75,10 @@ function Ld1400Comp() {
           communities reduce their carbon footprint and lower energy
           consumption.
         </p>
-        <p style={{ margin: "0", fontSize: "13px" }}>--------------------</p>
+        <img src={recycle} alt="" style={{ width: "500px" }} />
       </div>
 
-      <Carousell/>
+      <VisionMissionCarousel settings={ldSettingsVisionMissionCarousel} />
     </>
   );
 }
