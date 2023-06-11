@@ -3,6 +3,7 @@ import PatelLogo from "../Images/PatelLogo.png";
 import recycle from "../Images/recycle.svg";
 import VisionMissionCarousel from "./VisionMissionCarousel";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import Products from "./Products";
 
 function Md992Comp() {
   const mdSettingsVisionMissionCarousel = {
@@ -13,6 +14,23 @@ function Md992Comp() {
     headTag: "h3",
     carouselDivMargin: "0 0 0 0",
   };
+
+  const mdSettingsProducts = {
+    flexDirection:"row",
+    energyHeadTag:'h1',
+    energyHeadLogoSize:70,
+    productDivMaxWidth: '1100px',
+    productMaxWidth: '520px',
+    productHeight: 'auto',
+    productMinWidth: '350px',
+    productMargin: '0 15px 0 15px',
+    textFontFamily:'OutFit',
+    textPadding:'0 30px 0 30px',
+    textFontSize: '15px',
+    ImgMaxWidth: "350px",
+    ImgMarginTop: "-40px",
+    ImgBorderRadius: "0 0 20px 20px",
+  }
   return (
     <>
       <div className="NavDiv" style={{ height: "110px" }}>
@@ -94,6 +112,8 @@ function Md992Comp() {
         <WhatsAppIcon sx={{ fontSize: 60, color: "#25D366", margin: "auto" }} />
       </div>
       </a>
+
+      <Products settings={mdSettingsProducts}/>
     </>
   );
 }

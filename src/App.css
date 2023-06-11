@@ -6,7 +6,7 @@ body {
   background-color: #f5f5f7;
 }
 
-hr{
+hr {
   width: 70%;
   color: #333333;
 }
@@ -29,7 +29,8 @@ hr{
 
 @font-face {
   font-family: "OutFit";
-  src: local("OutfitVariableFont"), url(./Fonts/OutfitVariableFont.ttf) format("truetype");
+  src: local("OutfitVariableFont"),
+    url(./Fonts/OutfitVariableFont.ttf) format("truetype");
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -54,18 +55,20 @@ hr{
   border: 3px solid #969696;
 }
 
-.whatsappButton{
+.whatsappButton {
   background: white;
   border-radius: 50%;
   text-align: center;
   position: fixed;
   bottom: 15px;
-  right: 15px; 
+  right: 15px;
   -webkit-animation: jello-horizontal 5s 10s infinite both;
   animation: jello-horizontal 5s 10s infinite both;
   animation-timing-function: linear;
   z-index: 999;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* ----------------------------------------------
@@ -80,67 +83,66 @@ hr{
  * animation jello-horizontal
  * ----------------------------------------
  */
- @-webkit-keyframes jello-horizontal {
+@-webkit-keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
   6% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
-            transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
   8% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
-            transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
   }
   10% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
-            transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
   }
   13% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
-            transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
   }
   15% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
-            transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
   }
   20% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }
 @keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
   6% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
-            transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
   8% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
-            transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
   }
   10% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
-            transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
   }
   13% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
-            transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
   }
   15% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
-            transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
   }
   20% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }
-
 
 .NavDiv {
   width: 100%;
@@ -202,25 +204,26 @@ hr{
   border-radius: 10px;
 }
 
-.productHead{
+.productHead {
   margin: auto;
-  margin-top: 35px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-family: 'OutFit';
+  font-family: "OutFit";
   color: #8bc34a;
 }
 
-.productsDiv{
+.productsDiv {
   display: flex;
   margin: auto;
   justify-content: space-evenly;
-  margin-top: 20px;
+  align-items: center;
+  margin-top: 35px;
 }
 
-.productName{
+.productName {
   margin-top: 0%;
   padding: 10px;
   height: 40px;
@@ -228,5 +231,13 @@ hr{
   clip-path: polygon(0% 0%, 0% 100%, 50% 65%, 100% 100%, 100% 0%);
   background: #1d1d1f;
   color: #f5f5f7;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.productCardDiv{
+  text-align: center;
+  background : white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

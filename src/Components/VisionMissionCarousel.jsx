@@ -34,7 +34,7 @@ function VisionMissionCarousel(props) {
               background: "#a32222",
               textAlign: "justify",
               color: "#f5f5f7",
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <settings.headTag style={{ textAlign: "center" }}>
@@ -46,7 +46,7 @@ function VisionMissionCarousel(props) {
                 fontFamily: "Century Gothic",
                 padding: "15px",
                 lineHeight: "20px",
-                marginTop:'-20px'
+                marginTop: "-20px",
               }}
             >
               To lead the transition towards a sustainable future by offering
@@ -61,7 +61,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -79,7 +79,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -98,7 +98,6 @@ function VisionMissionCarousel(props) {
           style={{
             maxWidth: settings.carouselDivMaxWidth,
             flexDirection: settings.flexDirection,
-            margin : settings.carouselDivMargin
           }}
         >
           <div
@@ -106,7 +105,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -127,7 +126,7 @@ function VisionMissionCarousel(props) {
               background: "#040469",
               textAlign: "justify",
               color: "#f5f5f7",
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <settings.headTag style={{ textAlign: "center" }}>
@@ -139,7 +138,7 @@ function VisionMissionCarousel(props) {
                 fontFamily: "Century Gothic",
                 padding: "15px",
                 lineHeight: "20px",
-                marginTop:'-20px'
+                marginTop: "-20px",
               }}
             >
               To provide innovative electric energy-saving solutions and
@@ -154,7 +153,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -173,7 +172,6 @@ function VisionMissionCarousel(props) {
           style={{
             maxWidth: settings.carouselDivMaxWidth,
             flexDirection: settings.flexDirection,
-            margin: settings.carouselDivMargin
           }}
         >
           <div
@@ -181,7 +179,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -199,7 +197,7 @@ function VisionMissionCarousel(props) {
             style={{
               width: settings.partsLength,
               height: settings.partsHeight,
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <div className="CarouselImgDiv">
@@ -220,7 +218,7 @@ function VisionMissionCarousel(props) {
               background: "#079100",
               textAlign: "justify",
               color: "#f5f5f7",
-              margin:settings.carouselDivMargin,
+              margin: settings.carouselDivMargin,
             }}
           >
             <settings.headTag style={{ textAlign: "center" }}>
@@ -232,7 +230,7 @@ function VisionMissionCarousel(props) {
                 fontFamily: "Century Gothic",
                 padding: "15px",
                 lineHeight: "20px",
-                marginTop:'-20px'
+                marginTop: "-20px",
               }}
             >
               Integrity, Innovation, and Environmental Stewardship. We

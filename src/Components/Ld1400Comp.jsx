@@ -17,10 +17,19 @@ function Ld1400Comp() {
 
   const ldSettingsProducts = {
     flexDirection:"row",
+    energyHeadTag:'h1',
+    energyHeadLogoSize:70,
     productDivMaxWidth: '1100px',
     productMaxWidth: '520px',
-    productHeight: '400px',
-    productMinWidth: '350px'
+    productHeight: 'auto',
+    productMinWidth: '350px',
+    productMargin: '0 15px 0 15px',
+    textFontFamily:'OutFit',
+    textPadding:'0 30px 0 30px',
+    textFontSize: '15px',
+    ImgMaxWidth: "350px",
+    ImgMarginTop: "-40px",
+    ImgBorderRadius: "0 0 20px 20px",
   }
 
   return (
