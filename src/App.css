@@ -22,12 +22,6 @@ hr {
 }
 
 @font-face {
-  font-family: "Linlergrey";
-  src: local("LinlergreyRegular"),
-    url(./Fonts/LinlegreyRegular.ttf) format("truetype");
-}
-
-@font-face {
   font-family: "OutFit";
   src: local("OutfitVariableFont"),
     url(./Fonts/OutfitVariableFont.ttf) format("truetype");

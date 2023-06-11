@@ -127,7 +127,7 @@ function Ld1400Comp() {
       <Products settings = {ldSettingsProducts}/>
       <ContactUs settings ={ldSettingsContacts}/>
       <div className="lastImage" style={{textAlign:'center', alignItems:'center'}}>
-        <img src={lastImg} alt="Save Environment"  style={{width:'90%'}}/>
+        <img src={lastImg} alt="Save Environment"  style={{width:'90%', maxWidth:'800px'}}/>
       </div>
     </>
   );

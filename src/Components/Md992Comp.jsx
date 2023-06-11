@@ -124,7 +124,7 @@ function Md992Comp() {
       <Products settings={mdSettingsProducts}/>
       <ContactUs settings ={mdSettingsContacts}/>
       <div className="lastImage" style={{textAlign:'center', alignItems:'center'}}>
-        <img src={lastImg} alt="Save Environment"  style={{width:'90%'}}/>
+        <img src={lastImg} alt="Save Environment"  style={{width:'90%', maxWidth:'800px'}}/>
       </div>
     </>
   );
