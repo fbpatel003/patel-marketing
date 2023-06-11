@@ -234,10 +234,32 @@ hr {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.productCardDiv{
+.productCardDiv {
   text-align: center;
-  background : white;
+  background: white;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.ContactMainDiv {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  font-family: "Outfit";
+  color: rgb(0, 0, 116);
+}
+
+.singleContact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.singleContact a{
+  color: rgb(0, 0, 116);
+  text-decoration: none;
 }

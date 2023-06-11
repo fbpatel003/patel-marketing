@@ -4,6 +4,7 @@ import VisionMissionCarousel from "./VisionMissionCarousel";
 import recycle from "../Images/recycle.svg";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Products from "./Products";
+import ContactUs from "./ContactUs";
 
 function Ld1400Comp() {
   const ldSettingsVisionMissionCarousel = {
@@ -30,6 +31,10 @@ function Ld1400Comp() {
     ImgMaxWidth: "350px",
     ImgMarginTop: "-40px",
     ImgBorderRadius: "0 0 20px 20px",
+  }
+
+  const ldSettingsContacts={
+    flexDirection:'row'
   }
 
   return (
@@ -118,6 +123,7 @@ function Ld1400Comp() {
       <hr />
 
       <Products settings = {ldSettingsProducts}/>
+      <ContactUs settings ={ldSettingsContacts}/>
     </>
   );
 }
