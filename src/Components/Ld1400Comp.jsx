@@ -5,6 +5,7 @@ import recycle from "../Images/recycle.svg";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Products from "./Products";
 import ContactUs from "./ContactUs";
+import lastImg from "../Images/lastImg.png";
 
 function Ld1400Comp() {
   const ldSettingsVisionMissionCarousel = {
@@ -34,7 +35,8 @@ function Ld1400Comp() {
   }
 
   const ldSettingsContacts={
-    flexDirection:'row'
+    flexDirection:'row',
+    mainDivMargin: '100px 20px 0 20px'
   }
 
   return (
@@ -124,6 +126,9 @@ function Ld1400Comp() {
 
       <Products settings = {ldSettingsProducts}/>
       <ContactUs settings ={ldSettingsContacts}/>
+      <div className="lastImage" style={{textAlign:'center', alignItems:'center'}}>
+        <img src={lastImg} alt="Save Environment"  style={{width:'90%'}}/>
+      </div>
     </>
   );
 }

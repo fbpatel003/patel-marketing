@@ -10,7 +10,7 @@ function ContactUs(props) {
     <>
       <div
         className="ContactMainDiv"
-        style={{ marginTop: "50px", flexDirection: settings.flexDirection }}
+        style={{ margin: settings.mainDivMargin , flexDirection: settings.flexDirection }}
       >
         <div className="Contact">
           <h1>Contact Us On</h1>
@@ -33,18 +33,22 @@ function ContactUs(props) {
           <div className="singleContact">
             <AccessTimeOutlinedIcon />
             &nbsp; &nbsp;
-            <a href="tel:+917096275962">
-              <h3>
-                Open : 9AM - 7PM <br /> Monday - Saturday
-              </h3>
-            </a>
+            <h3>
+              Open : 9AM - 7PM <br /> Monday - Saturday
+            </h3>
           </div>
 
           <div className="singleContact">
             <LocationOnOutlinedIcon />
             &nbsp; &nbsp;
-            <a href="tel:+917096275962">
-              <h3>12 - Vardhman Market, Summair Club Road, <br /> Oppo Dr. Dangar Hospital, <br /> Jamnagar - 361001.</h3>
+            <a
+              href="https://www.google.com/maps/place/22%C2%B027'51.7%22N+70%C2%B003'42.7%22E/@22.4643472,70.0612233,19z/data=!3m1!4b1!4m4!3m3!8m2!3d22.464346!4d70.061867?entry=ttu"
+              target="_blank"
+            >
+              <h3>
+                12 - Vardhman Market, Summair Club Road, <br /> Oppo Dr. Dangar
+                Hospital, <br /> Jamnagar - 361005.
+              </h3>
             </a>
           </div>
         </div>
@@ -54,9 +58,9 @@ function ContactUs(props) {
 
           <iframe
             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100093681932602&tabs&width=500&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-            width={500}
+            width={450}
             height={150}
-            style={{ border: "none", overflow: "hidden", borderRadius:'20px' }}
+            style={{ border: "none", overflow: "hidden", borderRadius: "20px" }}
             allowFullScreen={true}
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           />

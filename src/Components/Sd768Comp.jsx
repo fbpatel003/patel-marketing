@@ -4,6 +4,8 @@ import recycle from "../Images/recycle.svg";
 import VisionMissionCarousel from "./VisionMissionCarousel";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Products from "./Products";
+import ContactUs from "./ContactUs";
+import lastImg from "../Images/lastImg.png";
 
 function Sd792Comp() {
   const sdSettingsVisionMissionCarousel = {
@@ -31,6 +33,12 @@ function Sd792Comp() {
     ImgMarginTop: "-40px",
     ImgBorderRadius: "0 0 20px 20px",
   }
+
+  const sdSettingsContacts={
+    flexDirection:'column',
+    mainDivMargin: '60px 20px 0 20px'
+  }
+
   return (
     <>
       <div className="NavDiv" style={{ height: "110px" }}>
@@ -99,7 +107,7 @@ function Sd792Comp() {
           communities reduce their carbon footprint and lower energy
           consumption.
         </p>
-        </div>
+      </div>
 
       <hr />
       <VisionMissionCarousel settings={sdSettingsVisionMissionCarousel} />
@@ -114,6 +122,10 @@ function Sd792Comp() {
       </a>
 
       <Products settings={sdSettingsProducts} />
+      <ContactUs settings ={sdSettingsContacts}/>
+      <div className="lastImage" style={{textAlign:'center', alignItems:'center'}}>
+        <img src={lastImg} alt="Save Environment"  style={{width:'90%'}}/>
+      </div>
     </>
   );
 }

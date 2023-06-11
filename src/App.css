@@ -246,9 +246,10 @@ hr {
 .ContactMainDiv {
   display: flex;
   margin: auto;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-family: "Outfit";
   color: rgb(0, 0, 116);
+  align-items: center;
 }
 
 .singleContact {
@@ -257,9 +258,10 @@ hr {
   align-items: center;
   vertical-align: middle;
   margin: auto;
+  color: #1d1d1f;
 }
 
-.singleContact a{
-  color: rgb(0, 0, 116);
+.singleContact a {
+  color: #1d1d1f;
   text-decoration: none;
 }

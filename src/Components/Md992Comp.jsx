@@ -4,6 +4,8 @@ import recycle from "../Images/recycle.svg";
 import VisionMissionCarousel from "./VisionMissionCarousel";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Products from "./Products";
+import ContactUs from "./ContactUs";
+import lastImg from "../Images/lastImg.png";
 
 function Md992Comp() {
   const mdSettingsVisionMissionCarousel = {
@@ -31,6 +33,12 @@ function Md992Comp() {
     ImgMarginTop: "-40px",
     ImgBorderRadius: "0 0 20px 20px",
   }
+
+  const mdSettingsContacts={
+    flexDirection:'row',
+    mainDivMargin: '80px 20px 0 20px'
+  }
+
   return (
     <>
       <div className="NavDiv" style={{ height: "110px" }}>
@@ -114,6 +122,10 @@ function Md992Comp() {
       </a>
 
       <Products settings={mdSettingsProducts}/>
+      <ContactUs settings ={mdSettingsContacts}/>
+      <div className="lastImage" style={{textAlign:'center', alignItems:'center'}}>
+        <img src={lastImg} alt="Save Environment"  style={{width:'90%'}}/>
+      </div>
     </>
   );
 }
