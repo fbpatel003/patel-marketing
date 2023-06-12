@@ -47,7 +47,7 @@ function ContactUs(props) {
             >
               <h3>
                 12 - Vardhman Market, Summair Club Road, <br /> Oppo Dr. Dangar
-                Hospital, <br /> Jamnagar - 361005.
+                Hospital, <br /> Jamnagar - 361001.
               </h3>
             </a>
           </div>

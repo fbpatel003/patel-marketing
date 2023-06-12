@@ -36,7 +36,7 @@ function Products(props) {
       pdf: OzoneMitraBike_PatelMarketing,
       pdfName: "OzoneMitraBike_PatelMarketing.pdf",
       points: [
-        "Ride Ozone Mitra bike daily and get ₹10,0000 every month for next 5 Years.",
+        "Ride Ozone Mitra bike daily and get ₹10,000 every month for next 5 Years.",
         "No need of license to ride Ozone Mitra.",
         "Range upto 95Km.",
         "Full Battery charge in 5-6 hours.",

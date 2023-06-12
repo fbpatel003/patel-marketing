@@ -17,11 +17,6 @@ hr {
 }
 
 @font-face {
-  font-family: "Arvo";
-  src: local("ArvoRegular"), url(./Fonts/ArvoRegular.ttf) format("truetype");
-}
-
-@font-face {
   font-family: "OutFit";
   src: local("OutfitVariableFont"),
     url(./Fonts/OutfitVariableFont.ttf) format("truetype");
