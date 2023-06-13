@@ -1,2 +1,225 @@
-body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}body{background-color:#f5f5f7;margin:auto;max-width:1400px;padding:0;width:100%}hr{color:#333;width:70%}@font-face{font-family:VarinoNormal;src:local("VarinoNormal"),url(/patel-marketing/static/media/VarinoNormal.73b4bdc9a68482b72da7.otf) format("opentype")}@font-face{font-family:OutFit;src:local("OutfitVariableFont"),url(/patel-marketing/static/media/OutfitVariableFont.00c2ed1a3bf798b0da27.ttf) format("truetype")}*{scrollbar-color:#333 #969696;scrollbar-width:auto}::-webkit-scrollbar{width:13px}::-webkit-scrollbar-track{background:#969696}::-webkit-scrollbar-thumb{background-color:#333;border:3px solid #969696;border-radius:10px}.whatsappButton{-webkit-animation:jello-horizontal 5s 10s infinite both;animation:jello-horizontal 5s 10s infinite both;-webkit-animation-timing-function:linear;animation-timing-function:linear;background:#fff;border-radius:50%;bottom:15px;box-shadow:0 54px 55px rgba(0,0,0,.25),0 -12px 30px rgba(0,0,0,.12),0 4px 6px rgba(0,0,0,.12),0 12px 13px rgba(0,0,0,.17),0 -3px 5px rgba(0,0,0,.09);position:fixed;right:15px;text-align:center;z-index:999}@-webkit-keyframes jello-horizontal{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}6%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}8%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}10%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}13%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}15%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}20%{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes jello-horizontal{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}6%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}8%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}10%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}13%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}15%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}20%{-webkit-transform:scaleX(1);transform:scaleX(1)}}.NavDiv{background:#1d1d1f;-webkit-clip-path:polygon(0 0,0 100%,100% 75%,100% 0);clip-path:polygon(0 0,0 100%,100% 75%,100% 0);display:flex;flex-direction:row;width:100%}.NaxHeadText{color:#fdfdf7;font-family:VarinoNormal;margin-bottom:0;text-decoration:underline;text-underline-position:below}.CarouselMain{margin:30px auto auto}.CarouselDiv{display:flex;justify-content:space-between;margin:auto}.CarouselPartsDiv{border-radius:10px;box-shadow:0 6px 12px -2px rgba(50,50,93,.25),0 3px 7px -3px rgba(0,0,0,.3);overflow:hidden}.CarouselImgDiv{height:100%;transition:all 1s ease;width:100%}.CarouselImgDiv:hover{opacity:.75;-webkit-transform:scale(1.25);transform:scale(1.25)}.CarosuelImg{border-radius:10px;box-sizing:border-box;height:100%;width:100%}.productHead{color:#8bc34a;flex-direction:row;font-family:OutFit;justify-content:center;margin:60px auto auto}.productHead,.productsDiv{align-items:center;display:flex}.productsDiv{justify-content:space-evenly;margin:35px auto auto}.productName{background:#1d1d1f;-webkit-clip-path:polygon(0 0,0 100%,50% 65%,100% 100%,100% 0);clip-path:polygon(0 0,0 100%,50% 65%,100% 100%,100% 0);color:#f5f5f7;font-family:Georgia,Times New Roman,Times,serif;height:40px;margin-top:0;padding:10px;text-align:center}.productCardDiv{background:#fff;border-radius:20px;box-shadow:0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3);overflow:hidden;text-align:center}.ContactMainDiv{color:#000074;font-family:Outfit;justify-content:space-evenly}.ContactMainDiv,.singleContact{align-items:center;display:flex;margin:auto}.singleContact{color:#1d1d1f;flex-direction:row;vertical-align:middle}.singleContact a{color:#1d1d1f;text-decoration:none}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+body {
+  background-color: #f5f5f7;
+  margin: auto;
+  max-width: 1400px;
+  padding: 0;
+  width: 100%;
+}
+hr {
+  color: #333;
+  width: 70%;
+}
+@font-face {
+  font-family: VarinoNormal;
+  src: local("VarinoNormal"),
+    url(../media/VarinoNormal.73b4bdc9a68482b72da7.otf)
+      format("opentype");
+}
+@font-face {
+  font-family: OutFit;
+  src: local("OutfitVariableFont"),
+    url(../media/OutfitVariableFont.00c2ed1a3bf798b0da27.ttf)
+      format("truetype");
+}
+* {
+  scrollbar-color: #333 #969696;
+  scrollbar-width: auto;
+}
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-track {
+  background: #969696;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border: 3px solid #969696;
+  border-radius: 10px;
+}
+.whatsappButton {
+  -webkit-animation: jello-horizontal 5s 10s infinite both;
+  animation: jello-horizontal 5s 10s infinite both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  background: #fff;
+  border-radius: 50%;
+  bottom: 15px;
+  box-shadow: 0 54px 55px rgba(0, 0, 0, 0.25), 0 -12px 30px rgba(0, 0, 0, 0.12),
+    0 4px 6px rgba(0, 0, 0, 0.12), 0 12px 13px rgba(0, 0, 0, 0.17),
+    0 -3px 5px rgba(0, 0, 0, 0.09);
+  position: fixed;
+  right: 15px;
+  text-align: center;
+  z-index: 999;
+}
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  6% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  8% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  10% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  13% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  15% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  20% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  6% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  8% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  10% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  13% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  15% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  20% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+.NavDiv {
+  background: #1d1d1f;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.NaxHeadText {
+  color: #fdfdf7;
+  font-family: VarinoNormal;
+  margin-bottom: 0;
+  text-decoration: underline;
+  text-underline-position: below;
+}
+.CarouselMain {
+  margin: 30px auto auto;
+}
+.CarouselDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.CarouselPartsDiv {
+  border-radius: 10px;
+  box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25),
+    0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.CarouselImgDiv {
+  height: 100%;
+  transition: all 1s ease;
+  width: 100%;
+}
+.CarouselImgDiv:hover {
+  opacity: 0.75;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+.CarosuelImg {
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.productHead {
+  color: #8bc34a;
+  flex-direction: row;
+  font-family: OutFit;
+  justify-content: center;
+  margin: 60px auto auto;
+}
+.productHead,
+.productsDiv {
+  align-items: center;
+  display: flex;
+}
+.productsDiv {
+  justify-content: space-evenly;
+  margin: 35px auto auto;
+}
+.productName {
+  background: #1d1d1f;
+  -webkit-clip-path: polygon(0 0, 0 100%, 50% 65%, 100% 100%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 50% 65%, 100% 100%, 100% 0);
+  color: #f5f5f7;
+  font-family: Georgia, Times New Roman, Times, serif;
+  height: 40px;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+}
+.productCardDiv {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  text-align: center;
+}
+.ContactMainDiv {
+  color: #000074;
+  font-family: Outfit;
+  justify-content: space-evenly;
+}
+.ContactMainDiv,
+.singleContact {
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+.singleContact {
+  color: #1d1d1f;
+  flex-direction: row;
+  vertical-align: middle;
+}
+.singleContact a {
+  color: #1d1d1f;
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.6f8ab583.css.map*/
