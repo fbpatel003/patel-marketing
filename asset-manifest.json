@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/patel-marketing/static/css/main.240fd998.css",
-    "main.js": "/patel-marketing/static/js/main.64ee28be.js",
+    "main.css": "/patel-marketing/static/css/main.6f8ab583.css",
+    "main.js": "/patel-marketing/static/js/main.29cbe65e.js",
     "static/js/787.836849ef.chunk.js": "/patel-marketing/static/js/787.836849ef.chunk.js",
     "static/media/OzoneMitraBike_PatelMarketing.pdf": "/patel-marketing/static/media/OzoneMitraBike_PatelMarketing.10d7bf8d3658a6ba20d6.pdf",
-    "static/media/VidhyutMitraCard_PatelMarketing.pdf": "/patel-marketing/static/media/VidhyutMitraCard_PatelMarketing.8c3e6d79a2025734cc91.pdf",
+    "static/media/VidhyutMitraCard_PatelMarketing.pdf": "/patel-marketing/static/media/VidhyutMitraCard_PatelMarketing.86c0e3b50e90b5533c9b.pdf",
     "static/media/lastImg.png": "/patel-marketing/static/media/lastImg.f1c3e55ece0a688eacba.png",
     "static/media/re2.jpg": "/patel-marketing/static/media/re2.d498f23e1d58a23dc0f4.jpg",
     "static/media/re1.jpg": "/patel-marketing/static/media/re1.f2bdd1c556dfc0043254.jpg",
@@ -17,15 +17,14 @@
     "static/media/vm1.jpg": "/patel-marketing/static/media/vm1.6e199965d35196e32426.jpg",
     "static/media/oz2.jpg": "/patel-marketing/static/media/oz2.932f81e91a3457bbb1b5.jpg",
     "static/media/en1.jpg": "/patel-marketing/static/media/en1.661500ff62b2f0523cf6.jpg",
-    "static/media/ArvoRegular.ttf": "/patel-marketing/static/media/ArvoRegular.e3d3d53c44db025c4592.ttf",
     "static/media/en2.jpg": "/patel-marketing/static/media/en2.c2c9d931ebdacaee1719.jpg",
     "index.html": "/patel-marketing/index.html",
-    "main.240fd998.css.map": "/patel-marketing/static/css/main.240fd998.css.map",
-    "main.64ee28be.js.map": "/patel-marketing/static/js/main.64ee28be.js.map",
+    "main.6f8ab583.css.map": "/patel-marketing/static/css/main.6f8ab583.css.map",
+    "main.29cbe65e.js.map": "/patel-marketing/static/js/main.29cbe65e.js.map",
     "787.836849ef.chunk.js.map": "/patel-marketing/static/js/787.836849ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.240fd998.css",
-    "static/js/main.64ee28be.js"
+    "static/css/main.6f8ab583.css",
+    "static/js/main.29cbe65e.js"
   ]
 }
